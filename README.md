@@ -36,19 +36,19 @@ Most projects in this repository are self-contained in their respective day fold
 
 ### 1. **Clone the Repository**
 ```bash
-git clone [https://github.com/your-username/100-days-100-codes.git](https://github.com/your-username/100-days-100-codes.git)
+git clone [https://github.com/Navid-Ziaei/Challange-100Days.git](https://github.com/Navid-Ziaei/Challange-100Days.git)
 cd 100-days-100-codes
 ```
 
 ### 2. Navigate to a Project Folder
 ```bash
-cd Day_01_Function_Calling/
+cd Day1-Function-Call/
 ```
 
 ### 3. Create a Virtual Environment
 It's highly recommended to use a virtual environment to manage dependencies for each project.
 
-Bash
+```bash
 
 # For Windows
 python -m venv venv
@@ -57,21 +57,28 @@ venv\Scripts\activate
 # For macOS/Linux
 python3 -m venv venv
 source venv/bin/activate
-4. Install Dependencies
+```
+
+### 4. Install Dependencies
 Each project folder should contain a requirements.txt file.
 
-Bash
-
+```bash
 pip install -r requirements.txt
-5. Set Up Environment Variables
+```
+
+### 5. Set Up Environment Variables
 For projects that require API keys or other secrets, you will need to create a .env file. A sample .env.example file will be provided.
 
-# Create a .env file and add your key
+```bash
 API_KEY="your_secret_api_key_here"
-6. Run the Script or Notebook
-Bash
+```
 
+### 6. Run the Script or Notebook
+
+```bash
 python your_script_name.py
 # or
 jupyter notebook your_notebook_name.ipynb
+```
+
 Thank you for visiting, and I hope you enjoy following my journey! ✨
